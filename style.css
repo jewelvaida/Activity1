@@ -262,3 +262,70 @@ nav ul li a:hover::after {
   width: 900px;
   height: 600px;
 }
+
+/* ===== Contact ===== */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-text {
+  text-align: center;
+  align-self: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: gray;
+}
+
+.contact-title {
+  font-size: 3rem;
+  text-align: center;
+  color: #691883;
+}
+
+.social-icon {
+  cursor: pointer;
+  height: 2.5rem;
+}
+
+.contact-info-container a {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: #691883 0.1rem solid;
+  background: #f3ccff;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  width: 30rem;
+  text-align: center;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+/* ===== Footer ===== */
+
+footer {
+  bottom: 0;
+  height: 20vh;
+  margin: 0 1 rem;
+}
+
+footer p {
+  text-align: center;
+}
