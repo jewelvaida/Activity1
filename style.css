@@ -217,3 +217,48 @@ nav ul li a:hover::after {
 .tab-contents.active-tab {
   display: block;
 }
+
+/* ===== Projects ===== */
+
+.project-subtitle {
+  text-align: center;
+  align-self: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: gray;
+}
+
+.project-text {
+  font-size: 3rem;
+  text-align: center;
+  color: #691883;
+}
+
+.project-content {
+  padding: 0 1.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.project-img {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+.project-title {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.project-description {
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.swiper {
+  margin-top: 3rem;
+  width: 900px;
+  height: 600px;
+}

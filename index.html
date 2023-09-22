@@ -6,6 +6,10 @@
     <title>Jewel Jaime Website Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <div class="bgpic">
@@ -102,6 +106,61 @@
       </div>
     </section>
 
+    <!-- ===== Projects ===== -->
+    <section id="projects">
+      <h2 class="project-text">Projects</h2>
+      <p class="project-subtitle">Most recent work</span>
+      <div class="project-container container swiper">
+        <div class="swiper-wrapper">
+          <!-- ===== Project 1 ===== -->
+          <div class="project-content grid swiper-slide">
+            <img
+              src="Assets/Student Record Program.png"
+              alt="Project 1"
+              class="project-img"
+            />
+            <div class="project-data">
+              <h3 class="project-title">Student Record Program</h3>
+              <p class="project-description">
+                A student record program in Python.
+              </p>
+            </div>
+          </div>
+          <!-- ===== Project 2 ===== -->
+          <div class="project-content grid swiper-slide">
+            <img
+              src="Assets/ATM Simulation System.png"
+              alt="Project 2"
+              class="project-img"
+            />
+            <div class="project-data">
+              <h3 class="project-title">ATM Simulation</h3>
+              <p class="project-description">ATM Simulation in C.</p>
+            </div>
+          </div>
+          <!-- ===== Project 3 ===== -->
+          <div class="project-content grid swiper-slide">
+            <img
+              src="Assets/Computer Shop Management System.png"
+              alt="Project 3"
+              class="project-img"
+            />
+            <div class="project-data">
+              <h3 class="project-title">Computer Shop Management System</h3>
+              <p class="project-description">
+                A computer shop management system in Python.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
