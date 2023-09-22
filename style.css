@@ -1,0 +1,140 @@
+/* ===== Fonts ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap");
+
+/* ========== */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fbeeff;
+  color: black;
+}
+
+.bgpic {
+  width: 100%;
+  height: 739px;
+  background-image: url(Assets/Background.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== Navigation ===== */
+
+.logo {
+  font-size: 2rem;
+  font-family: Pacifico;
+  color: #691883;
+}
+
+.nav-container {
+  padding: 10px 10%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #691883;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: #b148d2;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* ===== Profile ===== */
+
+#profile {
+  padding: 10px 10%;
+  margin-top: 18%;
+}
+
+.profile-text {
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-text p {
+  font-weight: 600;
+}
+
+.profile-text-p1 {
+  font-size: 25px;
+  margin-left: 16rem;
+}
+
+.profile-text-p2 {
+  font-size: 20px;
+  margin-left: 17rem;
+  margin-bottom: 1rem;
+  color: gray;
+  text-align: center;
+}
+
+.title-profile {
+  font-size: 3rem;
+  text-align: center;
+  font-family: Pacifico;
+  color: #691883;
+  margin-left: 8rem;
+}
+
+.button-CV {
+  display: inline-block;
+  background-color: #b148d2;
+  color: white;
+  padding: 1%;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 15rem;
+}
+
+.cv-icon {
+  cursor: pointer;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.button-CV:hover {
+  background-color: #e79aff;
+}
