@@ -15,7 +15,6 @@
           <div class="logo">Jewel Vaida</div>
           <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contacts</a></li>
           </ul>
@@ -44,6 +43,65 @@
         </div>
       </section>
     </div>
+
+    <!-- ===== About ===== -->
+    <section id="about">
+      <div class="about-container">
+        <div class="about-row">
+          <!-- ===== About - Picture ===== -->
+          <div class="about-picture">
+            <img src="Assets/AboutMe.JPG" alt="About Me Picture" />
+          </div>
+
+          <!-- ===== About - Details ===== -->
+          <div class="about-details">
+            <h1 class="about-title">About Me</h1>
+            <p>
+              Responsible, ambitious, and motivated student with excellent time
+              management and who demonstrates strong work ethics. Currently a
+              Third-year student at the Technological University of the
+              Philippines taking up Bachelor of Science in Information System.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="experience">
+              <ul>
+                <li><span>HTML</span><br />Basic</li>
+                <li><span>CSS</span><br />Basic</li>
+                <li><span>JavaScript</span><br />Basic</li>
+                <li><span>C</span><br />Basic</li>
+                <li><span>C++</span><br />Basic</li>
+                <li><span>Python</span><br />Basic</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Technological University of the Philippines</span
+                  ><br />Currently 3rd-year College<br />
+                  B.S in Information System
+                </li>
+                <li>
+                  <span>University of Perpetual Help System DALTA</span
+                  ><br />Senior High School<br />Information and Communication
+                  Technologies Strand
+                </li>
+                <li>
+                  <span>Mary Immaculate Parish Special School</span><br />Junior
+                  High School
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
