@@ -268,7 +268,6 @@ nav ul li a:hover::after {
 #contact {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   height: 70vh;
 }
@@ -321,9 +320,10 @@ nav ul li a:hover::after {
 /* ===== Footer ===== */
 
 footer {
-  bottom: 0;
-  height: 20vh;
-  margin: 0 1 rem;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
 }
 
 footer p {
