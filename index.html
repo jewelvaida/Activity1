@@ -15,6 +15,7 @@
     <!-- ===== Profile and Navs ===== -->
     <section id = "section1">
       <div class="bgpic">
+
         <!-- ===== Navigation ===== -->
         <div class="nav-container">
           <nav id = "desktop-nav">
@@ -26,6 +27,23 @@
             </ul>
           </nav>
         </div>
+
+        <!-- ===== Navigation (Hamburger) ===== -->
+        <nav id = "hamburger-nav">
+          <div class="logo">Jewel Vaida</div>
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick ="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="hamburger-links">
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+          </div>
+        </nav>
 
         <!-- ===== Profile ===== -->
         <section id="profile">
