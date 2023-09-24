@@ -64,4 +64,25 @@
   .cv-icon {
     height: 1rem;
   }
+
+  /* ===== About ===== */
+
+  .about-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .about-details,
+  .about-picture {
+    flex-basis: 100%;
+  }
+
+  .about-details p {
+    text-align: center;
+  }
+
+  .tab-titles {
+    margin-left: 1.5rem;
+  }
+  
 }
