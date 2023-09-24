@@ -35,3 +35,14 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// Contact Form
+const scriptURL = "https://script.google.com/macros/s/AKfycbznwgi3JTtGpRwsarsF-jPwjToe4EMIbQjzhEzXTc_IsWRwGfFuIyUqjAbw3WaJefSy/exec";
+const form = document.forms["submit-to-google-sheet"];
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+    .then((response) => console.log("Success!", response))
+    .catch((error) => console.error("Error!", error.message));
+});
