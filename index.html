@@ -12,41 +12,44 @@
     />
   </head>
   <body>
-    <div class="bgpic">
-      <!-- ===== Navigation ===== -->
-      <div class="nav-container">
-        <nav id = "desktop-nav">
-          <div class="logo">Jewel Vaida</div>
-          <ul class = "nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contacts</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <!-- ===== Profile ===== -->
-      <section id="profile">
-        <div class="profile-text">
-          <p class="profile-text-p1">Hello, I am</p>
-          <h1 class="title-profile">Jewel Vaida Jaime</h1>
-          <p class="profile-text-p2">Student</p>
-
-          <!-- ===== Profile - Button ===== -->
-          <a
-            onclick="window.open('./Assets/CV Jewel Jaime.pdf')"
-            class="button-CV"
-          >
-            download CV
-            <img
-              src="./Assets/Icon - Document.png"
-              alt="Document Icon"
-              class="cv-icon"
-            />
-          </a>
+    <!-- ===== Profile and Navs ===== -->
+    <section id = "section1">
+      <div class="bgpic">
+        <!-- ===== Navigation ===== -->
+        <div class="nav-container">
+          <nav id = "desktop-nav">
+            <div class="logo">Jewel Vaida</div>
+            <ul class = "nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contacts</a></li>
+            </ul>
+          </nav>
         </div>
-      </section>
-    </div>
+
+        <!-- ===== Profile ===== -->
+        <section id="profile">
+          <div class="profile-text">
+            <p class="profile-text-p1">Hello, I am</p>
+            <h1 class="title-profile">Jewel Vaida Jaime</h1>
+            <p class="profile-text-p2">Student</p>
+
+            <!-- ===== Profile - Button ===== -->
+            <a
+              onclick="window.open('./Assets/CV Jewel Jaime.pdf')"
+              class="button-CV"
+            >
+            download CV
+              <img
+                src="./Assets/Icon - Document.png"
+                alt="Document Icon"
+                class="cv-icon"
+              />
+            </a>
+          </div>
+        </section>
+      </div>
+    </section>
 
     <!-- ===== About ===== -->
     <section id="about">
@@ -219,9 +222,9 @@
     <footer>
       <div class = "ft-links-container">
         <ul class = "ft-links">
+            <li><a href="#section1">Profile</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contacts</a></li>
         </ul>
       </div>
       <p>Copyright &#169; 2023 Jewel Vaida Jaime. All Rights Reserved.</p>
