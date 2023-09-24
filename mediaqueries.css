@@ -11,11 +11,21 @@
   .icon-arrow {
     display: none;
   }
+
+  .icon-arrow1 {
+    display: none;
+  }
+
+  .icon-arrow2 {
+    display: none;
+  }
 }
 
 /* ========== */
 
 @media screen and (max-width: 600px) {
+  /* ===== Profile ===== */
+
   .bgpic {
     background-image: url(Assets/bgphone.JPG);
   }
