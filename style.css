@@ -451,10 +451,15 @@ nav ul li a:hover::after {
 /* ===== Contact ===== */
 
 #contact {
+  margin-top: 12rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+}
+
+.contact-container {
+  padding: 10px 10%;
 }
 
 .contact-text {
@@ -471,35 +476,67 @@ nav ul li a:hover::after {
   color: #691883;
 }
 
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social-icon-container {
+  margin-left: 5rem;
+}
+
 .social-icon {
   cursor: pointer;
   height: 2.5rem;
 }
 
-.contact-info-container a {
-  color: black;
-  text-decoration: none;
-  font-size: larger;
+.contact-left {
+  flex-basis: 35%;
+  margin-left: 8rem;
+  margin-top: 10rem;
 }
 
-.contact-info-upper-container {
-  display: flex;
-  justify-content: center;
-  border-radius: 2rem;
-  border: #691883 0.1rem solid;
+.contact-left p {
+  font-family: Pacifico;
+  color: #691883;
+  font-size: 2rem;
+}
+
+.contact-form {
+  flex-basis: 50%;
+}
+
+.contact-form form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
   background: #f3ccff;
-  margin: 2rem auto;
-  padding: 0.5rem;
-  width: 30rem;
-  text-align: center;
+  color: black;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 18px;
+  border-radius: 5px;
 }
 
-.contact-info-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
+.button-msg {
+  background-color: #691883;
+  color: white;
+  padding: 1%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: -1rem;
+  border: none;
+}
+
+.button-msg:hover {
+  background-color: #e79aff;
 }
 
 /* ===== Footer ===== */

@@ -246,28 +246,44 @@
 
     <!-- ===== Contact ===== -->
     <section id = "contact">
-      <h1 class = "contact-title">Contact Me</h1>
-      <p class = "contact-text"> Get in Touch</p>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./Assets/Icon - Mail.png"
-            alt="FB icon"
-            class="social-icon"
-            onclick ="location.href='mailto:jewelvaidaajaime@gmail.com'"
-          />
-          <img
-            src="./Assets/Icon - Github.png"
-            alt="Github icon"
-            class="social-icon"
-            onclick ="location.href='https://github.com/jewelvaida'"
-          />
-          <img
-            src="./Assets/Icon - FB.png"
-            alt="FB icon"
-            class="social-icon"
-            onclick ="location.href='https://www.facebook.com/jewelvaidaa'"
-          />
+      <div class="contact-container">
+        <h1 class = "contact-title">Contact Me</h1>
+        <p class = "contact-text"> Get in Touch</p>
+        <div class="contact-row">
+          <div class="contact-left">
+            <p>Jewel Vaida A. Jaime</p>
+            <div class="social-icon-container">
+              <img
+              src="./Assets/Icon - Mail.png"
+              alt="Mail icon"
+              class="social-icon"
+              onclick ="location.href='mailto:jewelvaidaajaime@gmail.com'"
+              />
+              <img
+              src="./Assets/Icon - Github.png"
+              alt="Github icon"
+              class="social-icon"
+              onclick ="location.href='https://github.com/jewelvaida'"
+              />
+              <img
+              src="./Assets/Icon - FB.png"
+              alt="FB icon"
+              class="social-icon"
+              onclick ="location.href='https://www.facebook.com/jewelvaidaa'"
+              />
+
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form>
+              <input type = "text" name = "name" placeholder = "Your name" required>
+              <input type = "email" name = "email" placeholder = "Your email" required>
+              <textarea name = "message" rows = "6" placeholder = "Your message"></textarea>
+              <button type = "submit" class = "button-msg">Send a message</button>
+            </form>
+          </div>
+          
         </div>
       </div>
     </section>
