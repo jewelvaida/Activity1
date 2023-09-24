@@ -150,4 +150,17 @@
     margin-left: 2rem;
     margin-bottom: 1rem;
   }
+
+  /* ===== Footer ===== */
+  footer {
+    margin-top: 13rem;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+
+  .ft-links li {
+    margin: 1px;
+  }
 }
