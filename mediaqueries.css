@@ -23,6 +23,15 @@
 
 /* ========== */
 
+@media screen and (max-width: 1200px) {
+  .swiper {
+    width: 400px;
+    height: 290px;
+  }
+}
+
+/* ========== */
+
 @media screen and (max-width: 600px) {
   /* ===== Profile ===== */
 
@@ -103,4 +112,16 @@
   .skills-list {
     margin-top: 1rem;
   }
+
+  /* ===== Projects ===== */
+
+  .projects-container {
+    margin-top: -15rem;
+  }
+
+  .swiper {
+    width: 300px;
+    height: 290px;
+  }
+
 }
