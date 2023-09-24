@@ -24,4 +24,34 @@
     font-size: 1.5rem;
     padding-left: 2rem;
   }
+
+  .profile-text {
+    margin-top: 10rem;
+    margin-left: -1rem;
+  }
+
+  .profile-text-p1 {
+    font-size: 15px;
+    margin-left: 2rem;
+  }
+
+  .title-profile {
+    font-size: 1.5rem;
+    margin-left: -1rem;
+  }
+
+  .profile-text-p2 {
+    font-size: 12px;
+    margin-left: 3.3rem;
+  }
+
+  .button-CV {
+    font-size: 10px;
+    margin-left: 2rem;
+    margin-top: -0.75rem;
+  }
+
+  .cv-icon {
+    height: 1rem;
+  }
 }
