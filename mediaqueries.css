@@ -24,6 +24,8 @@
 /* ========== */
 
 @media screen and (max-width: 1200px) {
+  /* ===== Project ===== */
+
   .swiper {
     width: 400px;
     height: 290px;
@@ -124,4 +126,28 @@
     height: 290px;
   }
 
+  /* ===== Contact ===== */
+
+  .contact-container {
+    margin-top: 10rem;
+  }
+
+  .contact-form,
+  .contact-left {
+    flex-basis: 100%;
+  }
+
+  .contact-row {
+    margin-top: -8rem;
+  }
+
+  .contact-left p {
+    font-size: 1.5rem;
+    margin-left: -1rem;
+  }
+
+  .social-icon-container {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
 }
