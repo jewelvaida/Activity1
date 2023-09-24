@@ -84,5 +84,23 @@
   .tab-titles {
     margin-left: 1.5rem;
   }
-  
+
+  /* ===== Skills ===== */
+
+  #section {
+    height: fit-content;
+  }
+
+  .skills-container {
+    margin-top: -4rem;
+  }
+
+  .skills-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .skills-list {
+    margin-top: 1rem;
+  }
 }
