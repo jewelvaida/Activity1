@@ -434,13 +434,6 @@ nav ul li a:hover::after {
   object-fit: cover;
 }
 
-.swiper-pagination {
-  display: block;
-  text-align: center;
-  margin-top: 1rem;
-  height: 60vh;
-}
-
 .icon-arrow2 {
   cursor: pointer;
   height: 2rem;

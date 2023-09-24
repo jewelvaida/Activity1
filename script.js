@@ -29,15 +29,11 @@ const swiper = new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
-
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
 });
 
 // Contact Form
-const scriptURL = "https://script.google.com/macros/s/AKfycbznwgi3JTtGpRwsarsF-jPwjToe4EMIbQjzhEzXTc_IsWRwGfFuIyUqjAbw3WaJefSy/exec";
+const scriptURL =
+  "https://script.google.com/macros/s/AKfycbznwgi3JTtGpRwsarsF-jPwjToe4EMIbQjzhEzXTc_IsWRwGfFuIyUqjAbw3WaJefSy/exec";
 const form = document.forms["submit-to-google-sheet"];
 
 form.addEventListener("submit", (e) => {
