@@ -268,6 +268,7 @@ nav ul li a:hover::after {
 }
 
 .swiper-slide img {
+  border-radius: 10px;
   margin-top: 15px;
   padding-left: 30px;
   padding-right: 30px;
@@ -348,4 +349,46 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.ft-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.ft-links li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.ft-links li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+.ft-links li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #691883;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.ft-links li a:hover {
+  color: #b148d2;
+}
+
+.ft-links li a:hover::after {
+  width: 100%;
 }
