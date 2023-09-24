@@ -225,6 +225,10 @@ nav ul li a:hover::after {
   padding: 80px 0;
 }
 
+.about-container {
+  padding: 10px 10%;
+}
+
 .about-row {
   display: flex;
   justify-content: space-between;
@@ -233,7 +237,6 @@ nav ul li a:hover::after {
 
 .about-picture {
   flex-basis: 37%;
-  padding-left: 50px;
 }
 
 .about-picture img {
@@ -306,7 +309,72 @@ nav ul li a:hover::after {
   bottom: -45rem;
 }
 
+/* ===== Skills ===== */
+
+#skills {
+  padding: 30px 0;
+  margin-bottom: 20rem;
+}
+
+.skills-container {
+  padding: 10px 10%;
+}
+
+.skills-title {
+  color: #691883;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.skills-list div {
+  background: #f3ccff;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-right: 10px;
+  border-radius: 10px;
+}
+
+.skills-list div:hover {
+  background-color: #e79aff;
+  transform: translateY(-10px);
+}
+
+.skills-list div i {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.skills-list div h2 {
+  font-size: 30px;
+  color: #691883;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.skills-list div li {
+  font-size: 15px;
+}
+
+.icon-arrow1 {
+  cursor: pointer;
+  height: 2rem;
+  position: absolute;
+  right: 1rem;
+  bottom: -93rem;
+}
+
 /* ===== Projects ===== */
+.projects-container {
+  padding: 10px 10%;
+}
 
 .project-subtitle {
   text-align: center;
@@ -377,7 +445,7 @@ nav ul li a:hover::after {
   height: 2rem;
   position: absolute;
   right: 1rem;
-  bottom: -97rem;
+  bottom: -147rem;
 }
 
 /* ===== Contact ===== */
