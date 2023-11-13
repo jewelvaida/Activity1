@@ -19,12 +19,6 @@
   .icon-arrow2 {
     display: none;
   }
-}
-
-/* ========== */
-
-@media screen and (max-width: 1200px) {
-  /* ===== Project ===== */
 
   .swiper {
     width: 400px;
@@ -32,7 +26,46 @@
   }
 }
 
-/* ========== */
+@media screen and (max-width: 850px) {
+  .logo {
+    margin-left: 5rem;
+  }
+
+  .profile-text {
+    margin-top: 20rem;
+    margin-left: -8rem;
+  }
+
+  #about {
+    margin-top: -5rem;
+  }
+
+  #skills {
+    margin-top: -3rem;
+  }
+
+  #projects {
+    margin-top: -18rem;
+  }
+
+  .swiper {
+    width: 650px;
+    height: 450px;
+  }
+
+  #contact {
+    margin-top: -8rem;
+  }
+
+  .contact-left p {
+    font-size: 1.5rem;
+    margin-left: -3rem;
+  }
+
+  .social-icon-container {
+    margin-left: 0.5rem;
+  }
+}
 
 @media screen and (max-width: 600px) {
   /* ===== Profile ===== */
@@ -162,5 +195,46 @@
 
   .ft-links li {
     margin: 1px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .hamburger-menu {
+    margin-right: -1rem;
+  }
+
+  .about-title {
+    font-size: 30px;
+    margin-left: -1rem;
+  }
+
+  .about-details p {
+    font-size: 15px;
+    margin-left: -1rem;
+  }
+
+  #section {
+    height: fit-content;
+  }
+
+  .skills-container {
+    margin-left: -1rem;
+  }
+
+  .swiper {
+    width: 230px;
+  }
+
+  .contact-left p {
+    font-size: 1.2rem;
+    margin-left: -1.5rem;
+  }
+
+  .social-icon {
+    height: 2rem;
+  }
+
+  .social-icon-container {
+    margin-left: 0.5rem;
   }
 }
